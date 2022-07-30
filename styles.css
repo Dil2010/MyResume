@@ -38,6 +38,7 @@ body{
 .left .img_holder img{
 	width: 200px;
 	border-radius: 100px;
+	border: 10px solid #410576;
 }
 
 .pb{
@@ -215,6 +216,7 @@ body{
 .right_inner .li_wrap .date {
     width: 125px;
     color: #9153c9;
+	
 }
 
 .right_inner .li_wrap .info{
@@ -248,7 +250,9 @@ body{
 	width: 10px;
 	height: 10px;
 	background: #9153c9;
+	/* background: #63c953; */
 	border-radius: 50%;
+	/* background: url(images.png); */
 }
 
 .right_inner .li_wrap .info:after{
