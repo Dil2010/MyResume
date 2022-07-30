@@ -37,7 +37,7 @@ body{
 
 .left .img_holder img{
 	width: 200px;
-	border-radius: 100px;
+	border-radius: 50%;
 	border: 10px solid #410576;
 }
 
