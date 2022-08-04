@@ -312,7 +312,7 @@ body{
 	}
 }
 
-@media screen and (min-width: 0px) and (max-device-width: 780px) {
+@media screen and (min-width: 425px) and (max-device-width: 780px) {
     .resume{
 	display: grid;
 	grid-row: 1fr;
