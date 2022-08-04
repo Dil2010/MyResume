@@ -338,6 +338,31 @@ body{
 }
 
 @media  screen and (max-width: 425px) {
-
+    .resume{
+		display: grid;
+		grid-row: 1fr;
+		}
+		.right{
+			width: 100%;
+		}
+		.left{
+			width: 100%;
+		}
+		.header{
+			display: none;
+		}
+	
+		.skills .li_wrap,
+		.hobbies .li_wrap{
+			width: 90px;
+			height: 90px;
+			margin-bottom: 15px;
+			margin-left: 100px;
+			border-radius: 15px;
+			display: grid;
+			grid-row: 1fr 1fr 1fr 1fr;
+	
+		}
+	
 
 } 
