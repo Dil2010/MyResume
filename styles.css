@@ -312,7 +312,7 @@ body{
 	}
 }
 
-@media screen and  (max-device-width: 780px) {
+@media screen and (min-width: 0px) and (max-device-width: 780px) {
     .resume{
 	display: grid;
 	grid-row: 1fr;
@@ -332,8 +332,6 @@ body{
 		width: 150px;
 		height: 150px;
 		margin-bottom: 15px;
-		/* margin-left: 100px;
-		margin-right: 100px; */
 		border-radius: 15px;
 		display: grid;
 		grid-row: 1fr 1fr 1fr 1fr;
@@ -341,12 +339,8 @@ body{
 	}
 
 	.skills {
-
-
-		margin-left: 100px;
-		margin-right: 100px;
-
-
+		margin-left: 50px;
+		margin-right: 50px;
 	}
 
 	.left .text{
@@ -357,7 +351,7 @@ body{
 	.contact .li_wrap .icon{
 		width: 100px;
 		height: 100px;
-		margin-left: 100px;
+		margin-left: 50px;
 	}
 
 	.title1{
@@ -373,8 +367,8 @@ body{
 		margin-right: 100px;
 	}
 
-	.right_inner .li_wrap .info_com{		
-		font-size: 25px;		
+	.right_inner .li_wrap .info .info_com{		
+		font-size: 30px;		
 	}
 
 	.right_inner .li_wrap .date {
@@ -382,17 +376,35 @@ body{
 	}
 
 	.right_inner .li_wrap .info .info_title {
-		font-size:25px ;		
+		font-size:40px ;		
 	}
-
+	.right_inner .li_wrap .info .info_cont {
+		font-size:20px ;
+		display:none;		
+	}
 	.title{
 		font-size: 40px;
 
 	}
 
+	.contact_wrap .contact .icon{
+		font-size: 2.5em;
+	}
+
+	.skills_wrap .skills .icon{
+		font-size: 2.5em;
+	}
+
+	.left .img_holder img{
+		width: 600px;
+		border: 20px solid #410576;
+
+	}
+
+
 }
 
-@media  screen and (max-width: 425px) {
+/* @media  screen and (max-width: 425px) {
     .resume{
 		display: grid;
 		grid-row: 1fr;
@@ -412,8 +424,6 @@ body{
 			width: 150px;
 			height: 150px;
 			margin-bottom: 15px;
-			/* margin-left: 100px;
-			margin-right: 100px; */
 			border-radius: 15px;
 			display: grid;
 			grid-row: 1fr 1fr 1fr 1fr;
@@ -471,4 +481,4 @@ body{
 		}
 	
 
-} 
+}  */
