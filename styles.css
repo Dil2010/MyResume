@@ -379,7 +379,6 @@ body{
     .resume{
 		display: grid;
 		grid-row: 1fr;
-		
 		}
 		.right{
 			width: 100%;
@@ -393,22 +392,48 @@ body{
 	
 		.skills .li_wrap,
 		.hobbies .li_wrap{
-			width: 90px;
-			height: 90px;
+			width: 150px;
+			height: 150px;
 			margin-bottom: 15px;
-			margin-left: 100px;
+			/* margin-left: 100px;
+			margin-right: 100px; */
 			border-radius: 15px;
 			display: grid;
 			grid-row: 1fr 1fr 1fr 1fr;
 	
 		}
-
+	
+		.skills {
+	
+	
+			margin-left: 100px;
+			margin-right: 100px;
+	
+	
+		}
+	
 		.left .text{
-			/* color: #9153c9; */
-			/* color: #9153c9; */
-			color: white;
-			/* text-transform: uppercase; */
-			font-size: 20px;
+			color: #9153c9;
+			font-size: 30px;
+		}
+	
+		.contact .li_wrap .icon{
+			width: 100px;
+			height: 100px;
+			margin-left: 100px;
+		}
+	
+		.title1{
+			font-size: 50px;
+			font-weight: 700;
+			margin-right: 100px;
+	
+		}
+		
+		.title2{
+			font-size: 30px;
+			font-weight: 700;
+			margin-right: 100px;
 		}
 	
 
