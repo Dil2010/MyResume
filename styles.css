@@ -173,7 +173,7 @@ body{
 	color: #9153c9;
 }
 
-.header{
+.header {
 	background: #755195;
 	padding: 15px 30px;
 	color: #fff;
@@ -193,6 +193,32 @@ body{
 }
 
 .header .about{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	line-height: 26px;
+	font-size: 15px;
+}
+
+.header1 {
+	background: #755195;
+	padding: 15px 30px;
+	color: #fff;
+	/* height: 240px; */
+}
+
+.header1 .name{
+	font-size: 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: white;
+}
+
+.header1 .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header1 .about{
 	margin-top: 20px;
 	margin-bottom: 10px;
 	line-height: 26px;
@@ -270,3 +296,48 @@ body{
 	height: 90%;
 	background: #9153c9;
 }
+
+
+/* Bootstrp */
+
+
+
+@media screen and (min-device-width: 780px)  and (max-device-width: 1020px) {
+	.header1{
+		display: none;
+	}
+}
+
+@media screen and  (max-device-width: 780px) {
+    .resume{
+	display: grid;
+	grid-row: 1fr;
+	}
+	.right{
+		width: 100%;
+	}
+	.left{
+		width: 100%;
+	}
+	.header{
+		display: none;
+	}
+
+	.skills .li_wrap,
+	.hobbies .li_wrap{
+		width: 90px;
+		height: 90px;
+		margin-bottom: 15px;
+		margin-left: 100px;
+		border-radius: 15px;
+		display: grid;
+		grid-row: 1fr 1fr 1fr 1fr;
+
+	}
+
+}
+
+@media  screen and (max-width: 425px) {
+
+
+} 
