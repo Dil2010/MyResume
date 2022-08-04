@@ -207,7 +207,7 @@ body{
 }
 
 .header1 .name{
-	font-size: 40px;
+	font-size: 80px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: white;
@@ -215,14 +215,14 @@ body{
 
 .header1 .role{
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 40px;
 }
 
 .header1 .about{
 	margin-top: 20px;
 	margin-bottom: 10px;
 	line-height: 26px;
-	font-size: 15px;
+	font-size: 25px;
 }
 
 .right_inner{
@@ -351,7 +351,7 @@ body{
 
 	.left .text{
 		color: #9153c9;
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.contact .li_wrap .icon{
@@ -371,6 +371,23 @@ body{
 		font-size: 30px;
 		font-weight: 700;
 		margin-right: 100px;
+	}
+
+	.right_inner .li_wrap .info_com{		
+		font-size: 25px;		
+	}
+
+	.right_inner .li_wrap .date {
+		font-size:30px ;		
+	}
+
+	.right_inner .li_wrap .info .info_title {
+		font-size:25px ;		
+	}
+
+	.title{
+		font-size: 40px;
+
 	}
 
 }
@@ -414,7 +431,7 @@ body{
 	
 		.left .text{
 			color: #9153c9;
-			font-size: 30px;
+			font-size: 15px;
 		}
 	
 		.contact .li_wrap .icon{
