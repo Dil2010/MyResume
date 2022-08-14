@@ -544,7 +544,8 @@ body{
 }
 
 .left{
-	background: #9153c9;
+	/* background: #9153c9; */
+	background: #8405f3;
 	width: 250px;
 	padding: 0 20px;
 }
@@ -562,6 +563,7 @@ body{
 	width: 200px;
 	border-radius: 50%;
 	border: 10px solid #410576;
+	/* border: 10px solid #2c0250; */
 }
 
 .pb{
@@ -620,8 +622,8 @@ body{
 }
 
 .left .text{
-	/* color: #9153c9; */
 	color: #9153c9;
+	/* color: #b285d8; */
 	/* text-transform: uppercase; */
 	font-size: 13px;
 }
